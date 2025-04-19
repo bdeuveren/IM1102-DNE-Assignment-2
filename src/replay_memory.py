@@ -31,7 +31,7 @@ class ReplayMemory:
         """
         self.buffer.append(Transition(*args))
 
-    def sample(self, batch_size) -> Transition:
+    def sample(self, batch_size) -> list[Transition]:
         """Sample a batch of experiences from replay memory.
 
         Returns
@@ -44,6 +44,14 @@ class ReplayMemory:
             - dones: A boolean indicating if the episode has ended.
         """
         return random.sample(self.buffer, batch_size)
+
+    def all(self) -> list[Transition]:
+        """Return all experiences from replay memory."""
+        return list(self.buffer)
+
+    def clear(self):
+        """Clear the replay memory."""
+        self.buffer.clear()
 
     def __len__(self):
         """Return the current size of replay memory."""

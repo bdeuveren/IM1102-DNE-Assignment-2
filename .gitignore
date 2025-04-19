@@ -173,3 +173,4 @@ cython_debug/
 .vscode/
 .scratch/
 .DS_Store
+experiments/

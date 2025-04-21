@@ -13,4 +13,6 @@ Folder `notebooks-rl` contains all the notebooks with the RL-Learning Algorithms
 
 Authors:
 - Job Habraken
-- Beer Seype
+- Beer Sijpesteijn
+- Sinan Zaeem
+- Bert van Deuveren

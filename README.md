@@ -9,7 +9,7 @@ IM1102-DNE-Assignment-2
 
 ## Notebooks
 
-Folder `notebooks-rl` contains all the notebooks with the RL-Learning Algorithms. And in the folder `notebook-lm` all the notbooks concerning Language Models. The notebooks have the following naming convention: `results_<Environment>_<Algorithm>_learning.ipnyb` for RL-Learning notebooks and `result_<Environment>_<LM_models.ipnyb`
+Folder `notebooks-rl` contains all the notebooks with the RL-Learning Algorithms. And in the folder `notebook-lm` all the notbooks concerning Language Models. The notebooks have the following naming convention: `results_<Environment>_<Algorithm>_learning.ipnyb` for RL-Learning notebooks and `results_<Environment>_<LM_models.ipnyb`
 
 Authors:
 - Job Habraken
